@@ -10,11 +10,10 @@ class UsersController < ApplicationController
   #Input paramaters: user_email, user_password
   #Output: True / False
   def login
-    if User.exists?(:user_email => params[:user_email], :user_password => params[:user_password])
-      render plain: "True"
-    else
-      render plain: "False"
-    end
+    user_email = params[:user_email]
+    user_password = params[:user_password]
+    response = User.exists?(user_email: user_email, user_password: user_password)
+    render plain: response
   end
 
   def show
