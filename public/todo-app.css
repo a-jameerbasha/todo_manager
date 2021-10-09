@@ -22,6 +22,11 @@ body {
   font-weight: 600;
   margin-bottom: 12px;
 }
+.TodoItem:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
 .AddTodo {
   display: flex;
   height: 32px;
