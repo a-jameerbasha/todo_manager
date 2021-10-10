@@ -23,7 +23,6 @@ body {
   margin-bottom: 12px;
 }
 .TodoItem:hover {
-  background-color: lightgray;
   cursor: pointer;
 }
 
