@@ -5,7 +5,7 @@
   </div>
   <ul>
     <% todos.all.each do |todo| %>
-    <% if todo.completed %>
+    <% if !todo.overdue.completed %>
       <li class="TodoItem">
         <label class="TodoItem-container">
         <input class="TodoItem-checkbox" type="checkbox">
