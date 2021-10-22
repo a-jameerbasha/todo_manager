@@ -89,6 +89,10 @@ body {
   padding-top: 5px;
 }
 
+.TodoItem-completed {
+  text-decoration-line: line-through;
+}
+
 .TodoItem-dueDate {
   font-size: 10px;
   color: rgb(103, 89, 123);
