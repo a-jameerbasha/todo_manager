@@ -77,6 +77,7 @@ body {
 }
 
 .TodoItem {
+  display: flex;
   font-size: 14px;
   margin-left: 8px;
   margin-bottom: 6px;
@@ -105,6 +106,7 @@ body {
 .TodoItem-container {
   padding: 5px 8px;
   align-items: center;
+  display: flex;
 }
 .TodoSection-todo {
   font-size: 20px;
