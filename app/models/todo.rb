@@ -15,20 +15,6 @@ class Todo < ActiveRecord::Base
     all.where(completed: true)
   end
 
-  def self.show_list
-    puts "Overdue\n"
-    puts overdue.to_displayable_list
-    puts "\n\n"
-
-    puts "Due Today\n"
-    puts due_today.to_displayable_list
-    puts "\n\n"
-
-    puts "Due Later\n"
-    puts due_later.to_displayable_list
-    puts "\n\n"
-  end
-
   def self.add_task(new_todo)
     Todo.create!(todo_text: new_todo[:todo_text], due_date: Date.today + new_todo[:due_in_days], completed: false)
   end
