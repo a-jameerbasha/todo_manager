@@ -1,0 +1,47 @@
+Event code: 3005 
+Event message: An unhandled exception has occurred. 
+Event time: 10/29/2021 12:38:16 PM 
+Event time (UTC): 10/29/2021 12:38:16 PM 
+Event ID: 9eeba329da0546419231106f86e522ae 
+Event sequence: 200 
+Event occurrence: 21 
+Event detail code: 0 
+ 
+Application information: 
+    Application domain: /LM/W3SVC/275/ROOT-11-132799790296362967 
+    Trust level: Full 
+    Application Virtual Path: / 
+    Application Path: C:\Inetpub\vhosts\e-novat.com\pimas.co.cr\ 
+    Machine name: NS341925 
+ 
+Process information: 
+    Process ID: 37456 
+    Process name: w3wp.exe 
+    Account name: NS341925\IWAM_plesk(default) 
+ 
+Exception information: 
+    Exception type: HttpException 
+    Exception message: A potentially dangerous Request.Path value was detected from the client (:).
+   at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+
+ 
+ 
+Request information: 
+    Request URL: https://www.pimas.co.cr:443/https:/www.pimas.co.cr.r.cm2.pW 
+    Request path: /https:/www.pimas.co.cr.r.cm2.pW 
+    User host address: 192.198.92.2 
+    User:  
+    Is authenticated: False 
+    Authentication Type:  
+    Thread account name: NS341925\IWAM_plesk(default) 
+ 
+Thread information: 
+    Thread ID: 220 
+    Thread account name: NS341925\IWAM_plesk(default) 
+    Is impersonating: False 
+    Stack trace:    at System.Web.HttpRequest.ValidateInputIfRequiredByConfig()
+   at System.Web.HttpApplication.PipelineStepManager.ValidateHelper(HttpContext context)
+ 
+ 
+Custom event details: 
